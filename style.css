@@ -128,9 +128,14 @@ footer {
 
 /* ---- Homepage-specific ---- */
 
-.hero {
-  text-align: center;
-  padding: 64px 24px 32px;
+.hero-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, var(--accent-sun), var(--accent-rain));
+  margin: 0 auto 24px;
+  display: block;
+  object-fit: cover;
 }
 
 .hero-icon {
